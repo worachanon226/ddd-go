@@ -4,7 +4,7 @@ type UsersUsecase interface {
 	Register(req *UsersResgisterReq) (*UsersRegisterRes, error)
 }
 
-type UserRepository interface {
+type UsersRepository interface {
 	Register(req *UsersResgisterReq) (*UsersRegisterRes, error)
 }
 
