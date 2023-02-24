@@ -5,6 +5,7 @@ go 1.20
 require (
 	github.com/gofiber/fiber/v2 v2.42.0
 	github.com/jmoiron/sqlx v1.3.5
+	github.com/joho/godotenv v1.5.1
 	golang.org/x/crypto v0.6.0
 )
 
