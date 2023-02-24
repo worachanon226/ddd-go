@@ -10,7 +10,7 @@ type usersController struct {
 	UsersUse entities.UsersUsecase
 }
 
-func newUsersController(r fiber.Router, usersUse entities.UsersUsecase) {
+func NewUsersController(r fiber.Router, usersUse entities.UsersUsecase) {
 	controllers := &usersController{
 		UsersUse: usersUse,
 	}
