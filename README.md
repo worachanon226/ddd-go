@@ -5,7 +5,7 @@
 
 ## Description
 
-This is an example of implementation of Clean Architecture in Go (Golang) projects from [Medium]("https://medium.com/@rayato159/มาเขียน-rest-api-โดยใช้-clean-architecture-ใน-golang-กันเถอะ-b47ce99c3297")
+This is an example of implementation of Clean Architecture in Go (Golang) projects from [medium.]("https://medium.com/@rayato159/มาเขียน-rest-api-โดยใช้-clean-architecture-ใน-golang-กันเถอะ-b47ce99c3297")
 
 ## Project Structure
 
