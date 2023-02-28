@@ -13,32 +13,11 @@ This is an example of implementation of Clean Architecture in Go (Golang) projec
 
 ## The Layers
 
-###### Entities
-
-Entities are domain models that have enterprise business rules and can be a set of data structures and functions.
-
-```go
-type User struct{
-    ID      uint        `json:"id"`
-    Name    string      `json:"name"`
-    Age     string      `json:"age"`
-}
-```
-
-###### Use Cases
-
-Use cases handle application business logic and have the Input Port and the Output Port.
-
-```go
-type UserInput interface{
-    Get(id int) error
-}
-```
+![Layers Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*yASGoy2V6F560OoSU470Tg.png)
 
 ## Project Structure
 
-```
-
+```bash
 .
 ├── README.md
 ├── assets
