@@ -50,7 +50,3 @@ This is an example of implementation of Clean Architecture in Go (Golang) projec
 └── connection_url_builder.go
 
 ```
-
-```
-
-```
